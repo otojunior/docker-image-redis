@@ -11,3 +11,4 @@
 FROM redis:alpine
 LABEL Oto Soares Coelho Junior <otojunior@gmail.com>
 RUN apk add --no-cache maven
+COPY settings.xml /usr/share/java/maven-3/conf/settings.xml
